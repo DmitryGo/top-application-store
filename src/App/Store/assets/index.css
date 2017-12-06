@@ -21,6 +21,13 @@ h1{
 }
 
 /**CARD SECTION*/
+.ui.card, .ui.cards>.card,
+.ui.card>.content,
+.ui.cards>.card>.content{
+  box-shadow: none;
+  border-top: none;
+}
+
 .card{
   margin: 5px;
   font-size: 12px;
@@ -28,6 +35,7 @@ h1{
 }
 
 .card .card__image{
+  border-radius: 25px;
   width: 100%;
 }
 
