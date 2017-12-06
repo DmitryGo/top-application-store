@@ -1,0 +1,36 @@
+{
+  "name": "top-application-store",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-flow-runtime": "0.15.0",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "flow-bin": "0.60.1",
+    "flow-runtime": "0.15.0",
+    "lodash": "4.17.4",
+    "prop-types": "15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-portal": "^4.0.0",
+    "react-redux": "^5.0.6",
+    "react-redux-form": "^1.16.2",
+    "react-router": "^3.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.17",
+    "react-transition-group": "^2.2.1",
+    "recompose": "^0.26.0",
+    "reduce-reducers": "^0.1.2",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-api": "^0.11.1",
+    "semantic-ui-react": "^0.77.0",
+    "react-slick": "^0.15.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

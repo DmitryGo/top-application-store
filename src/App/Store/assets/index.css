@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 18px;
+}
+
+/** BANNER SECTION */
+.banner .banner__image{
+  width: 100%;
+  height: auto;
+}
+
+/**IPHONE SECTION*/
+.iphone{
+  margin: 20px;
+  display: inline-block;
+}
+
+/**CARD SECTION*/
+.card{
+  margin: 5px;
+  font-size: 12px;
+  height: auto;
+}
+
+.card .card__image{
+  width: 100%;
+}
+
+.card .card__button{
+  width: 100%;
+}
+
+/**URLBLOCK SECTION*/
+.urlBlock, .urlBlock .urlBlock__link{
+  color: rgb(79, 79, 79);
+}
