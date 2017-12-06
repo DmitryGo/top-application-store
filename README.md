@@ -9,9 +9,9 @@ This is application was used for learn:
 4) semantic;
 5) and etc.
 
-This is application need for check top list application in AppStore, buy or download
-different mobile application.
-top-application-store contains two modules for iPhone and iPad.
+This application is used for checking top list applications 
+in AppStore, to buy or download different mobile applications. 
+Top-application-store contains of two modules for iPhone and iPad.
 
 Clone and start the repo
 ==============
