@@ -5,7 +5,7 @@ body {
 }
 
 h1{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /** BANNER SECTION */
@@ -35,8 +35,9 @@ h1{
 }
 
 .card .card__image{
-  border-radius: 25px;
-  width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  width: 50%;
 }
 
 .card .card__button{
@@ -46,4 +47,15 @@ h1{
 /**URLBLOCK SECTION*/
 .urlBlock, .urlBlock .urlBlock__link{
   color: rgb(79, 79, 79);
+}
+
+/**listPopularApplication SECTION*/
+.listPopularApplication{
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.listPopularApplication .listPopularApplication__image{
+  border-radius: 5px;
 }

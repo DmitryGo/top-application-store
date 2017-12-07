@@ -18,7 +18,7 @@ const
 	}) => <Grid.Column>
 				<Card className='card'>
 					<Link to={props.item.url} className='card__link'>
-						<Image src={props.item.icon} className='card__image'/>
+						<Image src={props.item.icon} centered className='card__image'/>
 					</Link>
 					<Card.Content>
 						<Card.Header>

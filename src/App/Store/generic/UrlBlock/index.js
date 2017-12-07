@@ -4,9 +4,9 @@ import {Divider, Grid, Icon} from 'semantic-ui-react';
 
 const
   UrlBlock = () => <div className="urlBlock">
-		<h1>App Store</h1>
-		<Link to="#" className="urlBlock__link">Все категории <Icon name="chevron down"/></Link><br/>
-		<h1>Быстрые ссылки</h1><br/>
+		<h1>App Store <Icon name="chevron down"/></h1>
+		<Link to="#" className="urlBlock__link">Все категории <Icon name="chevron down"/></Link>
+		<h1>БЫСТРЫЕ ССЫЛКИ</h1>
 
 		<Grid>
 			<Grid.Row>

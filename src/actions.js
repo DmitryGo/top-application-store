@@ -2,16 +2,16 @@ export const
 	GET_LIST_IPHONE = 'GET_LIST_IPHONE',
 	GET_LIST_IPAD = 'GET_LIST_IPAD';
 
-export function getIphone(index) {
+export function getIphone(iphone) {
 	return {
 		type: GET_LIST_IPHONE,
-		index
+		iphone
 	}
 }
 
-export function getIpad(index) {
+export function getIpad(ipad) {
 	return {
 		type: GET_LIST_IPAD,
-		index
+		ipad
 	}
 }

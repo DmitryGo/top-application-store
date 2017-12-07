@@ -8,8 +8,9 @@ import {Grid} from 'semantic-ui-react';
 
 const
 	ListNewApplication = (props:{
-		name: string,
 		items: {},
+		itemType: string,
+		name: string,
 	}) => <Grid>
 			<Grid.Row>
 				<Grid.Column textAlign='left' width={14}>
@@ -21,15 +22,15 @@ const
 			</Grid.Row>
 
 			<Grid.Row columns={7}>
-				{_.map(_.sortBy(props.items, ['name']), item => <Item key={item.id} item={item} />).slice(0, 7)}
+				{_.map(props.items, item => <Item key={item.id} item={item} />).slice(0, 7)}
 			</Grid.Row>
 		</Grid>;
 
 export default compose(
 	connect(
-		state => ({
-			name : state.iphoneApp.interesting.name,
-			items: state.iphoneApp.interesting.data,
+		(state, props) => ({
+			name : _.get(state, `${props.itemType}.new_application.name`),
+			items: _.get(state, `${props.itemType}.new_application.data`),
 		})
 	)
 )(ListNewApplication);

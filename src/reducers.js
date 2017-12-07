@@ -5,7 +5,7 @@ const
 	iphoneApp = (state = {}, action) => {
 		switch(action.type) {
 			case GET_LIST_IPHONE:
-				return action.index;
+				return action.iphone;
 			default:
 				return state;
 		}
@@ -15,7 +15,7 @@ const
 	ipadApp = (state = {}, action) => {
 		switch(action.type) {
 			case GET_LIST_IPAD:
-				return action.index;
+				return action.ipad;
 			default:
 				return state;
 		}

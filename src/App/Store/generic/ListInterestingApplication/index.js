@@ -7,7 +7,7 @@ import {Grid} from 'semantic-ui-react';
 import ModalCategory from '../ModalCategory';
 
 const
-	ListClassicApplication = (props:{
+	ListInterestingApplication = (props:{
 		items: {},
 		itemType: string,
 		name: string,
@@ -29,8 +29,8 @@ const
 export default compose(
 	connect(
 		(state, props) => ({
-			name : _.get(state, `${props.itemType}.classic.name`),
-			items: _.get(state, `${props.itemType}.classic.data`),
+			name : _.get(state, `${props.itemType}.interesting.name`),
+			items: _.get(state, `${props.itemType}.interesting.data`),
 		})
 	)
-)(ListClassicApplication);
+)(ListInterestingApplication);
