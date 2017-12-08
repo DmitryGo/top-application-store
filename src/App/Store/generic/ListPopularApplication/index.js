@@ -14,17 +14,18 @@ const
 		<h1>{props.name}</h1>
 
 		<div className='listPopularApplication'>
-			<Image.Group size='small'>
+			<Image.Group size='small' className='listPopularApplication__imageGroup'>
 				{_.map(props.items, item => <ItemBanner
 					key={item.id}
 					item={item}
 				/>).slice(0, 7)}
 			</Image.Group>
-			<Image.Group size='small'>
+
+			<Image.Group size='small' className='listPopularApplication__imageGroup'>
 				{_.map(props.items, item => <ItemBanner
 					key={item.id}
 					item={item}
-				/>).slice(7, 14)}
+				/>).slice(8, 14)}
 			</Image.Group>
 		</div>
 	</div>;

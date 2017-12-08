@@ -8,6 +8,18 @@ h1{
   font-size: 16px;
 }
 
+/** deviceType SECTION */
+.deviceType{
+  margin: 20px 0;
+}
+
+.deviceType .ui.button.toggle.active, .ui.buttons .button.toggle.active, .ui.toggle.buttons .active.button {
+  background-color: #2185d0!important;
+  box-shadow: none!important;
+  text-shadow: none;
+  color: #fff!important;
+}
+
 /** BANNER SECTION */
 .banner .banner__image{
   width: 100%;
@@ -35,9 +47,10 @@ h1{
 }
 
 .card .card__image{
-  border: 1px solid whitesmoke;
+  border: 1px solid antiquewhite;
   border-radius: 20px;
-  width: 50%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .card .card__button{
@@ -51,11 +64,29 @@ h1{
 
 /**listPopularApplication SECTION*/
 .listPopularApplication{
-  overflow: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   margin-bottom: 20px;
 }
 
 .listPopularApplication .listPopularApplication__image{
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.listPopularApplication .listPopularApplication__imageGroup{
+  margin-bottom: 15px;
+}
+
+.listPopularApplication .ui.images .image{
+  margin-right: 10px;
+}
+
+/**ItemTOP SECTION*/
+.itemTop .ui.card>.content{
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.itemTop .itemTop__image{
+  border-radius: 10px;
 }

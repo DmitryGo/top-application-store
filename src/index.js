@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './assets/index.css';
+import {render} from 'react-dom';
 import App from './App/Store/App';
 import registerServiceWorker from './registerServiceWorker';
 import { Router, Route, browserHistory } from 'react-router';
@@ -12,7 +11,7 @@ import {Provider} from 'react-redux'
 let
 	store = createStore(getApp, initialState);
 
-ReactDOM.render(
+render(
 	<Provider store={store}>
 		<Router history={browserHistory}>
 			<Route path="/" component={App} />

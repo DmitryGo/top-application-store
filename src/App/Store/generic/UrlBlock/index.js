@@ -13,12 +13,15 @@ const
 				<Grid.Column textAlign='left' width={8}>
 					<Link to="#" className="urlBlock__link">Ввести код</Link>
 				</Grid.Column>
+
 				<Grid.Column textAlign='left' width={8}>
 					<Link to="#" className="urlBlock__link">Учетная запись</Link>
 				</Grid.Column>
+
 				<Grid.Column textAlign='left' width={8}>
 					<Link to="#" className="urlBlock__link">Поддержка</Link>
 				</Grid.Column>
+
 				<Grid.Column textAlign='left' width={8}>
 					<Link to="#" className="urlBlock__link">О персонализации</Link>
 				</Grid.Column>

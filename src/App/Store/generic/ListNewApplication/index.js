@@ -16,6 +16,7 @@ const
 				<Grid.Column textAlign='left' width={14}>
 					<h1>{props.name}</h1>
 				</Grid.Column>
+
 				<Grid.Column textAlign='right' width={2}>
 					<ModalCategory items={props.items} name={props.name}/>
 				</Grid.Column>
