@@ -1,6 +1,5 @@
 import _  from 'lodash';
 import React  from 'react';
-import {Link} from 'react-router';
 import {Divider, Icon, List} from 'semantic-ui-react';
 import {connect} from 'react-redux';
 import ItemTop from '../ItemTop';

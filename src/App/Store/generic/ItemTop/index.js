@@ -1,6 +1,5 @@
 import React  from 'react';
 import {Image, Card, List}  from 'semantic-ui-react';
-import {Link} from 'react-router';
 import {defaultProps} from 'recompose';
 
 const

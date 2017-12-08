@@ -1,5 +1,5 @@
 # top-application-store
-v.0.2
+v.0.3
 =====
 
 This is application was used for learn:
@@ -29,6 +29,17 @@ package.json file. For this action need use next command in console:
 
     npm i
     
+Create bundle.js using webpack    
+------------------------------
+For create bundle.js need write console command:
+If webpack install global:
+    
+    webpack
+    
+If webpack install local in application:
+    
+    ./node_modules/.bin/webpack -d
+
 Start application
 -----------------
 When are dependencies loading, you need start this application.
